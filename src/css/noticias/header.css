@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    padding-top: 66px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1d6a96;
+    color: white;
+    padding-top: 8px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.menu-central ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 20px;
+}
+
+.menu-central ul li a{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.menu-central ul li a:hover{
+    text-decoration: underline;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.opcoes-usuario {
+    display: flex;
+    align-items: center;
+}
+
+#anuncio{
+    color: white;
+    text-decoration: none;
+}
+
+.opcoes-usuario>.item {
+    margin-right: 21px;
+}
+
+.info-contato, .info-noticias {
+    background-color: #fff;
+    padding: 8px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1d6a96;
+}
