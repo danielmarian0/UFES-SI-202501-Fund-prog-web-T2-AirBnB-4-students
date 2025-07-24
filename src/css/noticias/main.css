@@ -2,3 +2,41 @@ body{
     margin: 0;
     padding-top: 66px;
 }
+
+.previsao_tempo {
+  height: 300px;
+  width: auto;
+  border-radius: 10px;
+}
+
+.secao-previsao {
+  display: flex;
+  justify-content: space-between;      
+  align-items: center;                 
+  margin: 40px 60px;                   
+}
+
+
+a, a:hover{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.texto_item{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.cardapio {
+  height: 400px;
+  width: auto;
+  border-radius: 10px;
+}
+
+.cardapio_ru {
+  display: flex;
+  justify-content: space-between;      
+  align-items: center;                 
+  margin: 40px 60px;                   
+}
